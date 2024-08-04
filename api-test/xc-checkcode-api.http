@@ -1,0 +1,29 @@
+### 申请验证码
+POST {{checkcode_host}}/checkcode/pic
+
+###
+
+# curl -X POST "http://localhost:8080/phone?param1=13620861435"
+POST  {{checkcode_host}}/checkcode/phone?param1=13620861435
+
+###
+# curl -X GET "http://localhost:8080/verifyCode?param=13620861435"
+POST {{checkcode_host}}/checkcode/verify?param=13620861435
+
+###
+### 申请验证码
+POST {{checkcode_host}}/checkcode/pic
+
+### 手机申请验证码
+POST {{checkcode_host}}/checkcode/phone?param1=13620861435
+
+### 邮箱申请验证码
+POST {{checkcode_host}}/checkcode/phone?param1=458784171@qq.com
+
+### 校验验证码
+POST {{checkcode_host}}/checkcode/verify?key=checkcode:1f816b4514584c1da3c20b555c1193a9&code=QBFJ
+
+
+
+### 校验验证码
+POST {{checkcode_host}}/checkcode/verify?key=checkcode:07a39f3c09ea41e1aac6c5d5855eee49&code=fbl4

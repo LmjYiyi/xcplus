@@ -1,0 +1,14 @@
+### 查询课程信息
+POST {{auth_host}}/api/auth/findpassword
+Content-Type: application/json
+
+{
+  "cellphone" :"458784171@qq.com",
+  "checkcode" :"r4s3a",
+  "checkcodekey" :"13620861435",
+  "confirmpwd" :"13620861435",
+  "email" :"458784171@qq.com",
+  "password" :"13620861435",
+  "nickname" :"13620861435"
+
+}
